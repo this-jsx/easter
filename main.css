@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    position: absolute;
+    height: 900px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+    animation: swiper-scale 8s ease-in infinite;
+  }
+
+.swiper-wrapper .header__swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+audio {
+    position: absolute;
+    bottom: 1.2rem;
+    z-index: 20;
+    /* width: 100px; */
+}
