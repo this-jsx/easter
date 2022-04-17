@@ -21,7 +21,7 @@ const swiperHero = new Swiper('.header__swiper', {
 
   effect: "fade",
   speed: 2100,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -45,3 +45,6 @@ swiperHero.on('activeIndexChange', function (item) {
   }
   
 });
+
+let audio = document.getElementById("myaudio");
+  		audio.volume = 0.2;
