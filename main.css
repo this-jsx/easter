@@ -27,6 +27,10 @@ audio {
     /* width: 100px; */
 }
 
+audio:focus {
+    opacity: 0;
+}
+
 .swiper-slide {
     background-position: left;
 }
